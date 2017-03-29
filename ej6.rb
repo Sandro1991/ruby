@@ -1,4 +1,4 @@
-def Empiezacon_ba(lista)
+def ej6(lista)
 #lista = [ 'rambo', 'banana', 'bandam']
 	lista.each_with_index do |array,x|
 		if array[0..1] == 'ba'

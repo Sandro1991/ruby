@@ -1,4 +1,4 @@
-def Multiplode()
+def ej7()
 	puts 'Hola, ingresa un numero'
 	numero = gets.chomp
 

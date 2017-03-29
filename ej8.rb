@@ -1,4 +1,5 @@
-def Mayor_lista()
+def ej8()
+	lista = []
 	cont = 0
 	while cont < 10
 		puts 'escribe un numero para la lista '
@@ -6,5 +7,5 @@ def Mayor_lista()
 		lista << numero.to_i
 		cont +=1
 	end
-	puts lista.sort.last
+	puts 'Este es el número mayor de la lista ingresada: ' + lista.sort.last.to_s
 end

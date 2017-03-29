@@ -1,4 +1,4 @@
-def Nombre()
+def ej3()
 	
 	puts 'Hola, ¿cuál es tu nombre?'
 	name = gets.chomp
@@ -15,10 +15,10 @@ def Nombre()
 		  if respuesta.downcase == 'si'
 		    puts '¡Mmm!  Bueno!'
 		  else
-		    puts '¡SALGA DE ACA!'
+		    puts '¡SALGA DE ACA BURRO!'
 		  end
 		end
 	else
-		puts 'No debes estar aca' + name
+		puts 'No debes estar aca ' + name
 	end
 end
